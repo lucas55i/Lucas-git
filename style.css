@@ -1,0 +1,37 @@
+body{
+    
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 26%, rgba(253,97,45,0.9248074229691877) 100%);
+}
+
+h2{
+    text-align: center;
+}
+
+.n1{
+    text-align: center;
+}
+
+.input1{
+    text-align: center;
+}
+
+.n2{
+    text-align: center;
+}
+
+.input2{
+    text-align: center;
+}
+
+.escolha{
+    text-align: center;
+}
+
+.escolha1{
+    text-align: center;
+}
+
+.enviar{
+    text-align: center;
+}

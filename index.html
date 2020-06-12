@@ -1,12 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso de GIT e Github</title>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <h2>MInha página inicial</h2>
+    <h2 >Calculadora</h2>
+    <form action="resultado.php" method="POST">
+
+        <div class="n1">
+            <label>Digite um Número: </label>
+        </div>
+        
+        <div class="input1">
+            <input type="number" name="n1" required>
+        </div>
+
+        <br>
+
+        <div class="n2">
+            <label>Digite outro número: </label>
+        </div>
+    
+        <div class="input2">    
+            <input type="number" name="n2" required>
+        </div>
+        
+        <br>
+
+        <div class="escolha">
+            <label>Escolha uma operação: </label>
+        </div>
+
+        <div class="escolha1">        
+            <input type="text" name="operacao" required>
+        </div>
+
+        <br>
+
+        <div class="enviar">
+            <button type="submit" href="">Enviar</button>
+        </div>
+
+    </form>
     
 </body>
 </html>

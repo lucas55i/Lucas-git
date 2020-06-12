@@ -1,0 +1,26 @@
+h1{
+    font-family: 'Nunito';
+    padding-top: 6%;
+    text-align: center;
+    font-size: 45px;
+}
+
+.usuario{
+    font-family: 'Nunito';
+    padding-top:9%;
+    padding-left: 15%;
+    font-size: 22px;
+}
+
+.senha{
+    font-family: 'Nunito';
+    padding-top: 1%;
+    padding-left: 15%;
+    font-size: 22px;
+}
+
+.entrar{
+    padding-top: 2%;
+    padding-left: 25%;
+    
+}
